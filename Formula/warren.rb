@@ -1,28 +1,28 @@
 class Warren < Formula
   desc "Browse AWS accounts and connect to EC2 instances over SSM"
   homepage "https://github.com/treyperrone/warren"
-  version "1.1.0"
+  version "1.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/treyperrone/warren/releases/download/v1.1.0/warren_darwin_arm64.tar.gz"
-      sha256 "bbde90a6bbbd756a0660c4f01870bcb44fa02758179845c2a2a5ab43b48e74ab"
+      url "https://github.com/treyperrone/warren/releases/download/v1.2.0/warren_darwin_arm64.tar.gz"
+      sha256 "efa8ce112281324f63185ed78ed1169aab9f54c467bfd80a730ef694724119a0"
     end
     on_intel do
-      url "https://github.com/treyperrone/warren/releases/download/v1.1.0/warren_darwin_amd64.tar.gz"
-      sha256 "12f8d370e325c618e186b65a3f06420db16c1d422fa5db357f21c0321469d3e6"
+      url "https://github.com/treyperrone/warren/releases/download/v1.2.0/warren_darwin_amd64.tar.gz"
+      sha256 "76d0b4ffde53aef21d34692938db2a638f53b553553aae00985a62bded934dc1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/treyperrone/warren/releases/download/v1.1.0/warren_linux_arm64.tar.gz"
-      sha256 "2a26b2cd6927807d5b44bd6cbce15434b7963e4a0c4031b291076fc800b5a5e7"
+      url "https://github.com/treyperrone/warren/releases/download/v1.2.0/warren_linux_arm64.tar.gz"
+      sha256 "f19ccfa368c46d638930ecf6f086cd951b31648b1ee6dbacb28f39152cc3740a"
     end
     on_intel do
-      url "https://github.com/treyperrone/warren/releases/download/v1.1.0/warren_linux_amd64.tar.gz"
-      sha256 "3bb7038836f48ea45a3e126254819ba689f86fe9891a207c8421fb8707085619"
+      url "https://github.com/treyperrone/warren/releases/download/v1.2.0/warren_linux_amd64.tar.gz"
+      sha256 "c2b6728ebc865d94a6c11f5d443d79c836cd4ac91d74411b6617e1fc7fdaef33"
     end
   end
 
